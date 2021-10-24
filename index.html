@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inwebsale - Новая площадка для продаж товаров и услуг в прямом эфире" >
+    <title>Inwebsale - live-продажи товаров и услуг</title>
+
+    <meta property="og:title" content="Live-продажи товаров и услуг"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://access.inwebsale.com/img/logo-meta.png"/>
+    <meta property="og:site_name" content="access.inwebsale.com"/>
+    <meta property="og:description" content="Новая площадка для продажи товаров и услуг в прямом эфире"/>
+
+    <link href="img/favicon.png" rel="shortcut icon" type="image/png"/>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Библиотека для анимации -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <link rel="stylesheet" href="style/css/normalize.css">
+    <link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <a href="" class="header_logo"><img src="img/logo.svg" alt="" ></a>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__content">
+                    <h1 class="main__header">
+                        Новая площадка для продаж<br class="_pc">товаров и услуг в прямом эфире
+                    </h1>
+                    <!-- Строки для анимированной печати -->
+                    <div id="typed-strings">
+                        <span>товары</span>
+                        <span>услуги</span>
+                        <span>больше</span>
+                        <span>нативно</span>
+                        <span>по-новому</span>
+                    </div>
+
+                    <p class="main__text">Продавайте <span id="typed" class="main__change"></span></p>
+                    <form action="https://cp.unisender.com/ru/subscribe?hash=6koot9zi6xepdh6rfnanwfgfbacjipob6wmyy93ey37m9biaawpho" method="POST" class="main__input" name="subscribtion_form">
+                        <div class="input__line">
+                            <input type="email" class="input" name="email" required placeholder="Введите Ваш email" >
+                            <button class="input__button" type="submit">Получить доступ</button>
+                        </div>
+                        <input type="hidden" name="charset" value="UTF-8">
+                        <input type="hidden" name="default_list_id" value="20593779">
+                        <input type="hidden" name="overwrite" value="2">
+                        <input type="hidden" name="is_v5" value="1">
+                        <input id="checkbox" type="checkbox" class="input__checkbox" required checked="checked">
+                        <label for="checkbox" class="input__label">
+                            
+                            Я даю согласие на <a href="" target="_blank">обработку персональных данных</a>
+                        </label>
+                       
+                    </form>
+                    <div class="cards">
+                        <div class="cards__card">
+                            <img src="img/views.svg" alt="" class="cards__image">
+                            <p class="cards__text">Неограниченное<br>количество зрителей</p>
+                        </div>
+                        <div class="cards__card">
+                            <img src="img/access.svg" alt="" class="cards__image">
+                            <p class="cards__text">Бесплатный<br>доступ</p>
+                        </div>
+                        <div class="cards__card">
+                            <img src="img/reit.svg" alt="" class="cards__image">
+                            <p class="cards__text">Уникальные<br class="_pc"> инструменты <br class="_mob">продаж</p>
+                        </div>
+                    </div>
+                    <div class="player">
+                        <div class="player__top">
+                         <div class="player__column _mob">
+                            <h2 class="player__header">Марафон “Фэн-шуй детокс для вашей квартиры”</h2>
+                            <p class="player__text">Спикер: Орлова Наталья</p>
+                         </div>
+                         <div class="player__column _pc">
+                            <h2 class="player__header">Магазин “Лофт дома”</h2>
+                            <p class="player__text">Автор: Орлова Ольга</p>
+                         </div>
+                         <div class="player__row _pc">
+                             <img src="img/avatar.png" alt="" class="player__avatar">
+                             <p class="player__email">user@gmail.com</p>
+                             <div class="player__exit">
+                                 <img src="img/log-out.svg" alt="" class="exit__image">
+                             </div>
+                         </div>
+                        </div>
+                        <div class="player__player">
+                            <img src="img/player_mob.jpg" alt="" class="player__img _mob">
+                            <img src="img/player_pc.jpg" alt="" class="player__img _pc">
+                            <img src="img/player_chat.jpg" alt="" class="player__chat">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">
+                inwebsale.com © 2021
+            </p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
