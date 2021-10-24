@@ -1,1 +1,1 @@
-# inwebsale-early-access
+https://access.inwebsale.com
